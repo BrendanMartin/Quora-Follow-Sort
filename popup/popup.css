@@ -1,0 +1,20 @@
+body {
+	margin: 20px 40px;
+	min-height: 178px;
+}
+
+#head-img {
+	width: 130px;
+	padding-bottom: 20px;
+}
+
+#time-lbl {
+	width: 100%;
+	text-align: center;
+}
+
+#timer-div {
+	display: inline-block;
+    padding: 4% 0 0 16%;
+	text-align: center;
+}

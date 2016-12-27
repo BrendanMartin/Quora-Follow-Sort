@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css" /> 
+    
+    <script src="../scripts/jquery.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <script src="popup.js"></script>
+    
+</head>
+<body>
+    <img id="head-img" src="../quora-sort-img.svg">
+    <div class="form-group row">
+		<label id="time-lbl" for="time">Auto scroll:</label>
+        <div class="">
+            <input class="form-control" type="number" value="5" id="time" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="btn-group" id="sort-btn-group">
+            <button type="button" class="btn btn-default" id="scroll-sort">Sort</button>
+            <button type="button" class="btn btn-default dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" id="no-scroll-sort" href="#">No Scroll Sort</a></li>
+            </ul>
+        </div>
+        <div class="" id="timer-div">
+                <span id="timer"></span>
+        </div>
+    </div>
+</body>
+</html>
